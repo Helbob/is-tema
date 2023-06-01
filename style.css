@@ -1,0 +1,205 @@
+/* 
+Theme Name: is-tema
+Template: pathway
+Version: 1.0.12
+
+*/
+@import url("https://use.typekit.net/ygn4mtl.css");
+
+@import url("https://use.typekit.net/ygn4mtl.css");
+
+h1,
+h2 {
+  font-family: "futura-pt", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+button,
+span {
+  font-family: "proxima-nova", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.produkt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+
+.produkt-is-container {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6%;
+}
+
+.produkt-is-container img {
+  max-width: 100%;
+}
+
+ul > li > a {
+  font-family: "futura-pt", sans-serif !important;
+  font-weight: 800 !important;
+}
+
+ul > li > span {
+  font-family: "futura-pt", sans-serif !important;
+  font-weight: 800 !important;
+}
+
+.blue {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color: #0f6dbf;
+  max-width: 50%;
+  padding: 2%;
+  color: white;
+  margin-top: 10%;
+
+  /* background-color: #0f6dbf;
+  color: white;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 2%;
+  position: relative;
+  bottom: 150px; */
+}
+
+.blue p {
+}
+
+.pink {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2555a;
+  padding: 2%;
+  transform: translate(0);
+  right: 5%;
+  bottom: -16%;
+  color: white;
+}
+
+.pink h2 {
+  padding: 0%;
+  margin: 0%;
+}
+
+ .navn {
+    margin-bottom: 2% !important;
+  }
+
+.pris{
+  margin-top: 0% !important;
+}
+
+.blue h1 {
+  padding: 0%;
+  margin: 0%;
+  font-size: 3rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 7rem;
+  align-items: center;
+  width: 100%;
+}
+
+#hero {
+  background-color: none;
+}
+
+.knap-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 2%;
+  border-radius: 3px;
+  margin-top: 5%;
+}
+
+.knap-container button {
+  background: none;
+  border: 0px;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.valgt {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-bottom: 3px solid #0f6dbf;
+  color: #0f6dbf;
+}
+
+.knap-container button:hover {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0f6dbf;
+}
+
+@media (max-width: 991px) {
+  .produkt-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5%;
+  }
+
+  .produkt-is-container {
+    max-width: 100%;
+    margin-bottom: 15%;
+  }
+
+  .produkt-is-container img {
+    max-width: 100%;
+  }
+
+  .navn {
+    font-size: 1rem;
+    margin-bottom: 2% !important;
+  }
+  .blue {
+    margin: 44% 10% 2% 10%;
+    max-width: 100%;
+    padding: 4%;
+  }
+  .pink {
+    position: initial;
+  }
+  .knap-container {
+    flex-wrap: wrap;
+  }
+
+  .knap-container {
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 2%;
+  border-radius: 3px;
+  margin-top: 5%;
+}
+}
+
+details > summary:first-of-type {
+display: list-item !important;
+}
+
+details summary::-webkit-details-marker {
+display: list-item !important;
+cursor: pointer !important;
+}
